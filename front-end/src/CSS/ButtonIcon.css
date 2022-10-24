@@ -1,0 +1,7 @@
+.img-icon{
+    padding: 30px;
+    width: 150px;
+}
+.img-icon:hover{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,60 @@
+{
+    "furniture":
+    [
+        {
+            "id": "1",
+            "name":"chair",
+            "price":"1,000",
+            "img":"https://www.yfactory.co.th/6737-thickbox_default/wooden-chair.jpg"
+        },
+        {
+            "id": "2",
+            "name":"bed",
+            "price":"1,000",
+            "img":"https://www.ikea.com/th/th/images/products/tufjord-upholstered-storage-bed-gunnared-blue__1151047_pe884749_s5.jpg?f=xl"
+        },
+        {
+            "id": "3",
+            "name":"pillow",
+            "price":"1,000",
+            "img":"https://ruma-home.com/wp-content/uploads/2019/08/gel-fibre-pillow-soft.jpg"
+            
+        },
+        {
+            "id": "4",
+            "name":"Vase",
+            "price":"1,000",
+            "img":"https://www.ikea.com/th/en/images/products/gradvis-vase-pink__0524970_pe644685_s5.jpg"
+            
+        }
+    ],
+    "furniture2":
+    [
+        {
+            "id": "1",
+            "name":"chair",
+            "price":"2,000",
+            "img":"https://www.ikea.com/th/en/images/products/adde-chair-black__0728277_pe736167_s5.jpg?f=s"
+        },
+        {
+            "id": "2",
+            "name":"bed",
+            "price":"2,000",
+            "img":"https://www.ikea.com/th/th/images/products/hauga-upholstered-bed-2-storage-boxes-lofallet-beige__1151055_pe884717_s5.jpg?f=xl"
+        },
+        {
+            "id": "3",
+            "name":"pillow",
+            "price":"2,000",
+            "img":"https://target.scene7.com/is/image/Target/GUEST_6e279c61-4e4f-48be-8f10-980f05791ca2?wid=488&hei=488&fmt=pjpeg"
+            
+        },
+        {
+            "id": "4",
+            "name":"Vase",
+            "price":"2,000",
+            "img":"https://cdn.shopify.com/s/files/1/2081/7373/products/GetImage_fbc111dc-b611-4209-a248-6194ba2796a1_1500x.png.jpg?v=1613168692"
+            
+        }
+    ]
+}

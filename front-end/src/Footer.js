@@ -1,0 +1,88 @@
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import React from 'react';
+const Footer = () => {
+    return ( 
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+    <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+
+        <div>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="facebook-f" />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="twitter" />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="google" />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="instagram" />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="linkedin" />
+          </a>
+          <a href='' className='me-4 text-reset'>
+            <MDBIcon fab icon="github" />
+          </a>
+        </div>
+      </section>
+
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon icon="gem" className="me-3" />
+                ศูนย์ช่วยเหลือ
+              </h6>
+              <p>
+                ท่านสามารถติดตามการซื้อขายได้ที่ Email ของท่าน
+              </p>
+            </MDBCol>
+
+            <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>เกี่ยวกับเรา</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  ตัวแทนจำหน่าย
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  ประกาศ
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                    มาเป็นผู้ช่วยขาย
+                </a>
+              </p>
+              
+            </MDBCol>
+
+
+            <MDBCol md="4" lg="3" xl="3" className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>ติดต่อเรา</h6>
+              <p>
+                <MDBIcon icon="envelope" className="me-3" />
+                shopOnline@example.com
+              </p>
+              <p>
+                <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2021 Copyright:
+        <a className='text-reset fw-bold' >
+          Shop Online
+        </a>
+      </div>
+    </MDBFooter>
+     );
+}
+ 
+export default Footer;
